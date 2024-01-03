@@ -8,6 +8,15 @@
     <artifactId>myproject</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+         <dependencies>
+    <dependency>
+      
+      <!-- ця бібліотека використовується тільки для запуску і компіляції тестів -->
+      
+      <scope>test</scope>
+      
+    </dependency>
+  </dependencies>
     <!-- Додайте залежності, налаштування збирання, тощо тут -->
 
 </project>
